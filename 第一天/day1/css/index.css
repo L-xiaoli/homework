@@ -52,22 +52,21 @@ nav {
   height: 2.76rem;
   background-color: #ffffff;
 }
-nav ul {
+ul {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   width: 100%;
   height: 2.76rem;
 }
-nav ul li {
+ul li {
   width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
-
   flex-direction: column;
 }
 ul li img {
-  width: 60px;
+  width: 1.067rem;
 }
 ul li p {
   margin-top: 0.267rem;
@@ -80,12 +79,26 @@ ul li p {
   background-color: #ffffff;
   margin: 0.267rem 0 0.133rem 0;
 }
+.exclusive h2 {
+  padding: 0.667rem 0 0.267rem 0.4rem;
+  font-size: 0.4rem;
+}
+.exclusive ul {
+  flex-wrap: wrap;
+}
+.exclusive ul li {
+  height: 2rem;
+}
+.exclusive ul li img {
+  width: 0.8rem;
+}
 /* 售后服务部分  */
 .after-sale {
   width: 100%;
   height: 3.533rem;
   background-color: #ffffff;
 }
+
 /* home导航部分  */
 .home {
   position: fixed;
